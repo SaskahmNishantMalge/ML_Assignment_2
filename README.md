@@ -2,7 +2,7 @@
 
 Five classical machine-learning classifiers trained on the UCI Dry Bean dataset, compared on six evaluation metrics, and served through an interactive Streamlit app.
 
-- **Live app:** `<https://mlassignment2-eq2hfkz4w3f8s5s8ugyhov.streamlit.app/>`
+- **Live app:** <https://mlassignment2-eq2hfkz4w3f8s5s8ugyhov.streamlit.app/>
 - **GitHub repository:** <https://github.com/SaskahmNishantMalge/ML_Assignment_2>
 
 ---
