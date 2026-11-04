@@ -1,0 +1,81 @@
+{
+  "logistic_regression": {
+    "name": "Logistic Regression",
+    "best_params": {
+      "C": 500
+    },
+    "cv_f1_macro": 0.9378,
+    "test_metrics": {
+      "Accuracy": 0.9177,
+      "AUC": 0.9948,
+      "Precision": 0.9296,
+      "Recall": 0.9296,
+      "F1": 0.9295,
+      "MCC": 0.9005
+    }
+  },
+  "decision_tree": {
+    "name": "Decision Tree",
+    "best_params": {
+      "criterion": "entropy",
+      "max_depth": 16,
+      "min_samples_leaf": 10
+    },
+    "cv_f1_macro": 0.9255,
+    "test_metrics": {
+      "Accuracy": 0.9011,
+      "AUC": 0.974,
+      "Precision": 0.9138,
+      "Recall": 0.9124,
+      "F1": 0.913,
+      "MCC": 0.8803
+    }
+  },
+  "knn": {
+    "name": "KNN",
+    "best_params": {
+      "n_neighbors": 21,
+      "weights": "distance"
+    },
+    "cv_f1_macro": 0.9374,
+    "test_metrics": {
+      "Accuracy": 0.9192,
+      "AUC": 0.9912,
+      "Precision": 0.9334,
+      "Recall": 0.9294,
+      "F1": 0.9309,
+      "MCC": 0.9023
+    }
+  },
+  "naive_bayes": {
+    "name": "Naive Bayes",
+    "best_params": {
+      "var_smoothing": 1e-09
+    },
+    "cv_f1_macro": 0.7632,
+    "test_metrics": {
+      "Accuracy": 0.763,
+      "AUC": 0.967,
+      "Precision": 0.7736,
+      "Recall": 0.7685,
+      "F1": 0.7669,
+      "MCC": 0.7143
+    }
+  },
+  "svm": {
+    "name": "Support Vector Machine",
+    "best_params": {
+      "C": 10,
+      "gamma": "scale"
+    },
+    "cv_f1_macro": 0.9438,
+    "test_metrics": {
+      "Accuracy": 0.9236,
+      "AUC": 0.9944,
+      "Precision": 0.9356,
+      "Recall": 0.934,
+      "F1": 0.9347,
+      "MCC": 0.9076
+    }
+  }
+}
